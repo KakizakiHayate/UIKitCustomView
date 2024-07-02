@@ -13,6 +13,8 @@
 		FBB7BFC92C34588800356998 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBB7BFC82C34588800356998 /* Base */; };
 		FBB7BFCB2C34588900356998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7BFCA2C34588900356998 /* Assets.xcassets */; };
 		FBB7BFCE2C34588900356998 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBB7BFCD2C34588900356998 /* Base */; };
+		FBB7BFD62C345B3400356998 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7BFD52C345B3400356998 /* CustomView.swift */; };
+		FBB7BFD82C345B4F00356998 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB7BFD72C345B4F00356998 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FBB7BFCA2C34588900356998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB7BFCD2C34588900356998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB7BFCF2C34588900356998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB7BFD52C345B3400356998 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		FBB7BFD72C345B4F00356998 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FBB7BFC32C34588800356998 /* SceneDelegate.swift */,
 				FBB7BFC52C34588800356998 /* ViewController.swift */,
 				FBB7BFC72C34588800356998 /* Main.storyboard */,
+				FBB7BFD52C345B3400356998 /* CustomView.swift */,
+				FBB7BFD72C345B4F00356998 /* CustomView.xib */,
 				FBB7BFCA2C34588900356998 /* Assets.xcassets */,
 				FBB7BFCC2C34588900356998 /* LaunchScreen.storyboard */,
 				FBB7BFCF2C34588900356998 /* Info.plist */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB7BFCB2C34588900356998 /* Assets.xcassets in Resources */,
+				FBB7BFD82C345B4F00356998 /* CustomView.xib in Resources */,
 				FBB7BFCE2C34588900356998 /* Base in Resources */,
 				FBB7BFC92C34588800356998 /* Base in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB7BFC62C34588800356998 /* ViewController.swift in Sources */,
+				FBB7BFD62C345B3400356998 /* CustomView.swift in Sources */,
 				FBB7BFC22C34588800356998 /* AppDelegate.swift in Sources */,
 				FBB7BFC42C34588800356998 /* SceneDelegate.swift in Sources */,
 			);
